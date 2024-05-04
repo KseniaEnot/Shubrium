@@ -589,13 +589,13 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 832659238
+      Data2: 1253612373
+      Data3: 904028336
+      Data4: 959419407
+    Path: event:/music_test
   Event: 
-  PlayEvent: 0
+  PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -603,8 +603,8 @@ MonoBehaviour:
   AllowNonRigidbodyDoppler: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &818844307
 GameObject:
   m_ObjectHideFlags: 0
@@ -638,13 +638,13 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: 832659238
+      Data2: 1253612373
+      Data3: 904028336
+      Data4: 959419407
+    Path: event:/music_test
   Event: 
-  PlayEvent: 0
+  PlayEvent: 1
   StopEvent: 0
   AllowFadeout: 1
   TriggerOnce: 0
@@ -652,8 +652,8 @@ MonoBehaviour:
   AllowNonRigidbodyDoppler: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!4 &818844309
 Transform:
   m_ObjectHideFlags: 0
@@ -2663,7 +2663,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 818844310}
         m_TargetAssemblyTypeName: AudioSettings, Assembly-CSharp
-        m_MethodName: MasterVolumeLevel
+        m_MethodName: MusicVolumeLevel
         m_Mode: 0
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
