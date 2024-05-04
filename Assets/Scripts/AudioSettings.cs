@@ -17,6 +17,7 @@ public class AudioSettings : MonoBehaviour
         SFX = FMODUnity.RuntimeManager.GetBus("bus:/Master/SFX");
         Master = FMODUnity.RuntimeManager.GetBus("bus:/Master");
         SFXVolumeTestEvent = FMODUnity.RuntimeManager.CreateInstance("event:/SFX/SFXVolumeTest");
+        print("ап");
     }
 
     void Update()
