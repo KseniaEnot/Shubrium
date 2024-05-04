@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class AudioSettings : MonoBehaviour
@@ -9,7 +7,7 @@ public class AudioSettings : MonoBehaviour
     FMOD.Studio.Bus Music;
     FMOD.Studio.Bus SFX;
     FMOD.Studio.Bus Master;
-    private float MusicVolume = 0.0f;
+    private float MusicVolume = 0.5f;
     private float SFXVolume = 0.5f;
     private float MasterVolume = 1f;
 
