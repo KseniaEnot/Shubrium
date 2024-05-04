@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{e6212b81-537e-47d7-a110-604a680b0279}">
+		<property name="assetPath">
+			<value>AMBSea_Waves Northsea Stone Bank Close Moderate_B00M_WOF FREE.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>96</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>270.13228125000001</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{22c07f93-51c7-4e76-b7bc-29a3ccecdfe1}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -181,8 +181,8 @@ MonoBehaviour:
       Value: 0
       HasValue: 0
     SampleRate:
-      Value: 0
-      HasValue: 0
+      Value: 48000
+      HasValue: 1
     BuildDirectory:
       Value: 
       HasValue: 0
@@ -536,8 +536,8 @@ MonoBehaviour:
   switchSettingsMigration: 1
   HasSourceProject: 1
   HasPlatforms: 1
-  sourceProjectPath: D:/work/Jam/sib_24/sib_24_fmod/sib_24/sib_24.fspro
-  sourceBankPath: D:/work/Jam/sib_24/sib_24_fmod/sib_24/Build
+  sourceProjectPath: sib_24/sib_24.fspro
+  sourceBankPath: sib_24/Build
   sourceBankPathUnformatted: 
   BankRefreshCooldown: 5
   ShowBankRefreshWindow: 1
