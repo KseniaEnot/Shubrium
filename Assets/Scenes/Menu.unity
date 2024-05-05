@@ -522,11 +522,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -953403646
-      Data2: 1131618018
-      Data3: -1127424582
-      Data4: 1294573009
-    Path: event:/SFX/SFXVolumeTest
+      Data1: -865519286
+      Data2: 1339307749
+      Data3: -172071753
+      Data4: -1052328570
+    Path: event:/UI/ui_menu_click
   Event: 
   PlayEvent: 17
   StopEvent: 0
@@ -553,11 +553,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -953403646
-      Data2: 1131618018
-      Data3: -1127424582
-      Data4: 1294573009
-    Path: event:/SFX/SFXVolumeTest
+      Data1: -1568421721
+      Data2: 1237509435
+      Data3: 1577722764
+      Data4: 44136667
+    Path: event:/UI/ui_menu_button
   Event: 
   PlayEvent: 19
   StopEvent: 0
@@ -889,11 +889,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -953403646
-      Data2: 1131618018
-      Data3: -1127424582
-      Data4: 1294573009
-    Path: event:/SFX/SFXVolumeTest
+      Data1: -1568421721
+      Data2: 1237509435
+      Data3: 1577722764
+      Data4: 44136667
+    Path: event:/UI/ui_menu_button
   Event: 
   PlayEvent: 19
   StopEvent: 0
@@ -920,11 +920,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -953403646
-      Data2: 1131618018
-      Data3: -1127424582
-      Data4: 1294573009
-    Path: event:/SFX/SFXVolumeTest
+      Data1: -865519286
+      Data2: 1339307749
+      Data3: -172071753
+      Data4: -1052328570
+    Path: event:/UI/ui_menu_click
   Event: 
   PlayEvent: 17
   StopEvent: 0
@@ -1333,11 +1333,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -953403646
-      Data2: 1131618018
-      Data3: -1127424582
-      Data4: 1294573009
-    Path: event:/SFX/SFXVolumeTest
+      Data1: -865519286
+      Data2: 1339307749
+      Data3: -172071753
+      Data4: -1052328570
+    Path: event:/UI/ui_menu_click
   Event: 
   PlayEvent: 17
   StopEvent: 0
@@ -1364,11 +1364,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -953403646
-      Data2: 1131618018
-      Data3: -1127424582
-      Data4: 1294573009
-    Path: event:/SFX/SFXVolumeTest
+      Data1: -1568421721
+      Data2: 1237509435
+      Data3: 1577722764
+      Data4: 44136667
+    Path: event:/UI/ui_menu_button
   Event: 
   PlayEvent: 19
   StopEvent: 0
@@ -1653,11 +1653,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -953403646
-      Data2: 1131618018
-      Data3: -1127424582
-      Data4: 1294573009
-    Path: event:/SFX/SFXVolumeTest
+      Data1: -865519286
+      Data2: 1339307749
+      Data3: -172071753
+      Data4: -1052328570
+    Path: event:/UI/ui_menu_click
   Event: 
   PlayEvent: 17
   StopEvent: 0
@@ -1684,11 +1684,11 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: -953403646
-      Data2: 1131618018
-      Data3: -1127424582
-      Data4: 1294573009
-    Path: event:/SFX/SFXVolumeTest
+      Data1: -1568421721
+      Data2: 1237509435
+      Data3: 1577722764
+      Data4: 44136667
+    Path: event:/UI/ui_menu_button
   Event: 
   PlayEvent: 19
   StopEvent: 0

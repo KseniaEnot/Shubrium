@@ -560,7 +560,11 @@ MonoBehaviour:
   Plugins: []
   MasterBanks:
   - Master
-  Banks: []
+  Banks:
+  - Ambient
+  - Music
+  - SFX
+  - UI_UX
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
