@@ -18,9 +18,9 @@ public class EnemyWander : MonoBehaviour
     private Transform currentNavTarget;
     public float movementSpeed;
 
-
+    //Rotation
+    public bool doesRotate;
     public float rotationSpeed;
-
     private Quaternion targetRotation;
 
     // Start is called before the first frame update
@@ -44,17 +44,21 @@ public class EnemyWander : MonoBehaviour
         {
             rigidBody.velocity = new Vector3(movementSpeed, 0, 0);
         }
-        if ((navTargetDistance < navPointRadius) && currentNavTarget == leftPoint.transform)
+        if (doesRotate)
         {
-            targetRotation = Quaternion.AngleAxis(180, Vector3.up);
-            currentNavTarget = rightPoint.transform;
+            if ((navTargetDistance < navPointRadius) && currentNavTarget == leftPoint.transform)
+            {
+                targetRotation = Quaternion.AngleAxis(180, Vector3.up);
+                currentNavTarget = rightPoint.transform;
+            }
+            else if ((navTargetDistance < navPointRadius) && currentNavTarget == rightPoint.transform)
+            {
+                targetRotation = Quaternion.AngleAxis(0, Vector3.down);
+                currentNavTarget = leftPoint.transform;
+            }
+            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         }
-        else if ((navTargetDistance < navPointRadius) && currentNavTarget == rightPoint.transform)
-        {
-            targetRotation = Quaternion.AngleAxis(0, Vector3.down);
-            currentNavTarget = leftPoint.transform;
-        }
-        transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+        
     }
 
     private void OnDrawGizmos()
@@ -62,10 +66,5 @@ public class EnemyWander : MonoBehaviour
         Gizmos.DrawWireSphere(leftPoint.transform.position, navPointRadius);
         Gizmos.DrawWireSphere(rightPoint.transform.position, navPointRadius);
         Gizmos.DrawLine(leftPoint.transform.position, rightPoint.transform.position);
-    }
-
-    private void flip(Quaternion targetRotation)
-    {
-        
     }
 }

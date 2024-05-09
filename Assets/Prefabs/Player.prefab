@@ -313,6 +313,8 @@ GameObject:
   - component: {fileID: 8619373846182172071}
   - component: {fileID: 4178043878996593344}
   - component: {fileID: 2227033383035708855}
+  - component: {fileID: 7803070629491972513}
+  - component: {fileID: 8348540826346106465}
   m_Layer: 0
   m_Name: PlayerActor
   m_TagString: Player
@@ -421,6 +423,60 @@ CapsuleCollider:
   m_Height: 2.0266688
   m_Direction: 1
   m_Center: {x: 0, y: 0.5133344, z: 0}
+--- !u!114 &7803070629491972513
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2627030363143871127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0ebccef540eca1439e924d225e4e02a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 8348540826346106465}
+        m_TargetAssemblyTypeName: Respawnable, Assembly-CSharp
+        m_MethodName: Respawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: Respawnable, Assembly-CSharp
+        m_MethodName: Respawn
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+--- !u!114 &8348540826346106465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2627030363143871127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87f9ee792980d0c479ce188ba32899e2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  respawnPoint: {fileID: 4273314262325458668}
+  respawnEventSources:
+  - {fileID: 7803070629491972513}
 --- !u!1 &2716381218652811964
 GameObject:
   m_ObjectHideFlags: 0
@@ -601,7 +657,7 @@ GameObject:
   m_Layer: 0
   m_Name: PlayerSpawnPoint
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -794,7 +850,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &4265440673012108141
 Transform:
   m_ObjectHideFlags: 0
@@ -1003,6 +1059,7 @@ GameObject:
   - component: {fileID: 6332736702474462748}
   - component: {fileID: 8448054532458973091}
   - component: {fileID: 3336583640584200119}
+  - component: {fileID: 4423841986229782857}
   - component: {fileID: 5929730896209970188}
   m_Layer: 5
   m_Name: PlayerHealthHandle
@@ -1094,6 +1151,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &4423841986229782857
 --- !u!114 &5929730896209970188
 MonoBehaviour:
   m_ObjectHideFlags: 0
