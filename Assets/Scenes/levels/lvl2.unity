@@ -745,6 +745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 5929730896209970188, guid: d36363e570fa4d24998836ac4e075269, type: 3}
+      propertyPath: cameraPosition
+      value: 
+      objectReference: {fileID: 1322163438}
     - target: {fileID: 8307062658185613690, guid: d36363e570fa4d24998836ac4e075269, type: 3}
       propertyPath: m_LocalPosition.x
       value: -47.357254
@@ -2361,6 +2365,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1634883394870384076, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1931139180045289428, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
+      propertyPath: m_LocalPosition.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2495448804115005826, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
