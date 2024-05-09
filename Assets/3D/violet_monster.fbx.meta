@@ -1,9 +1,29 @@
 fileFormatVersion: 2
-guid: ccf6f3dc23c971949a5f41c4a782feb5
+guid: 14b7ee9d107d5454c8c7f06f474f956e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monster.008
+    second: {fileID: 2100000, guid: 908add4034fc22f46806046dd58940bb, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: violetmonster
+    second: {fileID: 2100000, guid: 4f25ee0622cf9994584660a5d5208a7f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: violetmonster.001
+    second: {fileID: 2100000, guid: e042bdfdd58af144dae69732670af524, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: violetmonster.003
+    second: {fileID: 2100000, guid: e9bee5b552c7abb498fc16b5e54c11f8, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
