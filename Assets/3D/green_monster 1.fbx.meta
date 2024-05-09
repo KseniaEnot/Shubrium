@@ -1,9 +1,14 @@
 fileFormatVersion: 2
-guid: 2208cff3fb3d6a946825f7bbdff7492a
+guid: b947a13f3b627f8429b6a80f39174c8b
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
   externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.030
+    second: {fileID: 2100000, guid: f384ed8d8a043b94883a98a4ac4536a0, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -34,11 +39,6 @@ ModelImporter:
       assembly: UnityEngine.CoreModule
       name: monster.005
     second: {fileID: 2100000, guid: f96a8c5b5452881488e975e8e93b6c66, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: monster.006
-    second: {fileID: 2100000, guid: 8d56c99517966d747add1fc03d0e717a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
