@@ -19,27 +19,14 @@ public class Move : MonoBehaviour
     void Update()
     {
         if (!canMove) return;
-        if(Input.GetAxis("Horizontal") != 0)
-        {
-            MovePlayer();
-        }
-        if (Input.GetKeyDown(KeyCode.W) && _grounded)
-        {
-            Jump();
-        }
-    }
 
-    private void OnCollisionEnter(Collision collision)
-    {
-        if (collision.gameObject.tag == "Ground")
-        {
-            _grounded = true;
-        }
+        if(Input.GetAxis("Horizontal") != 0) MovePlayer();
+        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && _grounded) Jump();
     }
 
     private void Jump()
     {
-        _grounded = false;
+        //ChangeGround(false);
         _rb.velocity = new Vector3(0, _jumpForce, 0);
     }
 
@@ -47,22 +34,24 @@ public class Move : MonoBehaviour
     {
         float direction = Input.GetAxis("Horizontal");
 
+        // Определяем направление вращения игрока
+        Quaternion targetRotation = Quaternion.identity;
         if (direction > 0)
         {
-            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+            targetRotation = Quaternion.Euler(0f, 0f, 0f);
         }
         else if (direction < 0)
         {
-            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+            targetRotation = Quaternion.Euler(0f, 180f, 0f);
         }
+        transform.rotation = targetRotation;
 
-        float step = _speed * Time.deltaTime;
-
-        transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x + direction * step, transform.position.y, transform.position.z), step);
+        // Устанавливаем скорость движения
+        Vector3 velocity = new Vector3(direction * _speed, _rb.velocity.y, _rb.velocity.z);
+        _rb.velocity = velocity;
     }
 
-    public void CanMove(bool move)
-    {
-        canMove = move;
-    }
+    public void CanMove(bool move) => canMove = move;
+
+    public void ChangeGround(bool jump) => _grounded = jump;
 }
