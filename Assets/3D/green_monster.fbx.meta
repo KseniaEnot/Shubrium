@@ -1,9 +1,44 @@
 fileFormatVersion: 2
-guid: ccf6f3dc23c971949a5f41c4a782feb5
+guid: 2208cff3fb3d6a946825f7bbdff7492a
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monster
+    second: {fileID: 2100000, guid: ff35b1c23fc8d0749948c7f1943eaab5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monster.001
+    second: {fileID: 2100000, guid: 285c8cfb0d6b37546b818ab5835d53de, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monster.002
+    second: {fileID: 2100000, guid: 2c29e80b5f664114d98abb22ba6466ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monster.003
+    second: {fileID: 2100000, guid: 982b1eddee2d28346bfaed5be3d7d872, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monster.004
+    second: {fileID: 2100000, guid: bff73db61b73ffc48b3f47ce67898610, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monster.005
+    second: {fileID: 2100000, guid: f96a8c5b5452881488e975e8e93b6c66, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: monster.006
+    second: {fileID: 2100000, guid: 8d56c99517966d747add1fc03d0e717a, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
