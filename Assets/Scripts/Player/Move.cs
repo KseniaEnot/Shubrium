@@ -23,7 +23,6 @@ public class Move : MonoBehaviour
         {
             MovePlayer();
         }
-
         if (Input.GetKeyDown(KeyCode.W) && _grounded)
         {
             Jump();
