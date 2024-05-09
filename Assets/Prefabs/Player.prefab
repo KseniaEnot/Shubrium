@@ -1059,8 +1059,7 @@ GameObject:
   - component: {fileID: 6332736702474462748}
   - component: {fileID: 8448054532458973091}
   - component: {fileID: 3336583640584200119}
-  - component: {fileID: 4423841986229782857}
-  - component: {fileID: 5929730896209970188}
+  - component: {fileID: 2517678033496606931}
   m_Layer: 5
   m_Name: PlayerHealthHandle
   m_TagString: Untagged
@@ -1151,8 +1150,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4423841986229782857
---- !u!114 &5929730896209970188
+--- !u!114 &2517678033496606931
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
