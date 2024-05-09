@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
@@ -39,7 +40,7 @@ public class EnemyWander : MonoBehaviour
         {
             rigidBody.velocity = new Vector3(-movementSpeed, 0, 0);
         }
-        else
+        else if (currentNavTarget == rightPoint.transform)
         {
             rigidBody.velocity = new Vector3(movementSpeed, 0, 0);
         }
