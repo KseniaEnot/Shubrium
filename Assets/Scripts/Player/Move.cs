@@ -9,6 +9,8 @@ public class Move : MonoBehaviour
 
     private bool _grounded;
 
+    private bool canMove = true;
+
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
@@ -16,12 +18,13 @@ public class Move : MonoBehaviour
 
     void Update()
     {
+        if (!canMove) return;
         if(Input.GetAxis("Horizontal") != 0)
         {
             MovePlayer();
         }
 
-        if(Input.GetKeyDown(KeyCode.W) && _grounded)
+        if (Input.GetKeyDown(KeyCode.W) && _grounded)
         {
             Jump();
         }
@@ -29,7 +32,7 @@ public class Move : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Ground")
+        if (collision.gameObject.tag == "Ground")
         {
             _grounded = true;
         }
@@ -45,17 +48,22 @@ public class Move : MonoBehaviour
     {
         float direction = Input.GetAxis("Horizontal");
 
-        if(direction > 0)
+        if (direction > 0)
         {
             transform.rotation = Quaternion.Euler(0f, 0f, 0f);
         }
-        else if (direction < 0) 
+        else if (direction < 0)
         {
             transform.rotation = Quaternion.Euler(0f, 180f, 0f);
         }
 
         float step = _speed * Time.deltaTime;
 
-        transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x + direction * step, transform.position.y), step);
+        transform.position = Vector3.MoveTowards(transform.position, new Vector3(transform.position.x + direction * step, transform.position.y, transform.position.z), step);
+    }
+
+    public void CanMove(bool move)
+    {
+        canMove = move;
     }
 }
