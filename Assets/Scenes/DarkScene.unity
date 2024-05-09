@@ -571,9 +571,13 @@ PrefabInstance:
       propertyPath: m_Center.y
       value: 0.502586
       objectReference: {fileID: 0}
+    - target: {fileID: 2967259110355452674, guid: d36363e570fa4d24998836ac4e075269, type: 3}
+      propertyPath: m_Icon
+      value: 
+      objectReference: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
     - target: {fileID: 3059521171799361509, guid: d36363e570fa4d24998836ac4e075269, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -12.4
+      value: -17.31
       objectReference: {fileID: 0}
     - target: {fileID: 3059521171799361509, guid: d36363e570fa4d24998836ac4e075269, type: 3}
       propertyPath: m_LocalPosition.y
@@ -610,6 +614,10 @@ PrefabInstance:
     - target: {fileID: 3059521171799361509, guid: d36363e570fa4d24998836ac4e075269, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4273314262325458668, guid: d36363e570fa4d24998836ac4e075269, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.79
       objectReference: {fileID: 0}
     - target: {fileID: 4423841986229782857, guid: d36363e570fa4d24998836ac4e075269, type: 3}
       propertyPath: cameraPosition
