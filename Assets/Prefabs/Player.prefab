@@ -226,7 +226,6 @@ GameObject:
   - component: {fileID: 7577323365670894532}
   - component: {fileID: 2290605720249377096}
   - component: {fileID: 1876835482160306675}
-  - component: {fileID: 681530954043675597}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -301,29 +300,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &681530954043675597
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2133764137007192990}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &2627030363143871127
 GameObject:
   m_ObjectHideFlags: 0
@@ -336,7 +312,7 @@ GameObject:
   - component: {fileID: 8811169686630277720}
   - component: {fileID: 8619373846182172071}
   - component: {fileID: 4178043878996593344}
-  - component: {fileID: 673421185981682593}
+  - component: {fileID: 2227033383035708855}
   m_Layer: 0
   m_Name: PlayerActor
   m_TagString: Player
@@ -404,7 +380,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 120
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
 --- !u!114 &4178043878996593344
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -422,8 +398,8 @@ MonoBehaviour:
   maxHealth: 100
   healingRate: 0
   healthBar: {fileID: 9036674006570094059}
---- !u!65 &673421185981682593
-BoxCollider:
+--- !u!136 &2227033383035708855
+CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -440,9 +416,11 @@ BoxCollider:
   m_IsTrigger: 0
   m_ProvidesContacts: 0
   m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  serializedVersion: 2
+  m_Radius: 0.5
+  m_Height: 2.0266688
+  m_Direction: 1
+  m_Center: {x: 0, y: 0.5133344, z: 0}
 --- !u!1 &2716381218652811964
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,6 +722,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6534021804907797711}
+  - component: {fileID: 9006387532951522928}
   m_Layer: 0
   m_Name: FeetPosition
   m_TagString: Untagged
@@ -766,6 +745,27 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6915967952899525696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!135 &9006387532951522928
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4783656976932020893}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 0.32
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &5482719118977860853
 GameObject:
   m_ObjectHideFlags: 0
