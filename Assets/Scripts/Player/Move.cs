@@ -26,15 +26,13 @@ public class Move : MonoBehaviour
 
     private void Jump()
     {
-        //ChangeGround(false);
+        ChangeGround(false);
         _rb.velocity = new Vector3(0, _jumpForce, 0);
     }
 
     private void MovePlayer()
     {
         float direction = Input.GetAxis("Horizontal");
-
-        // Определяем направление вращения игрока
         Quaternion targetRotation = Quaternion.identity;
         if (direction > 0)
         {
@@ -46,7 +44,6 @@ public class Move : MonoBehaviour
         }
         transform.rotation = targetRotation;
 
-        // Устанавливаем скорость движения
         Vector3 velocity = new Vector3(direction * _speed, _rb.velocity.y, _rb.velocity.z);
         _rb.velocity = velocity;
     }
