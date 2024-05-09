@@ -1,10 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
+    private RespawnEventEmitter RespawnEventEmitter;
+
     public Transform spawnPoint;
 
     public float health;
@@ -12,11 +15,12 @@ public class Health : MonoBehaviour
     public float healingRate;
 
     public HealthBar healthBar;
-    
 
     // Start is called before the first frame update
     void Start()
     {
+
+        RespawnEventEmitter = GetComponent<RespawnEventEmitter>();
         health = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
     }
@@ -51,8 +55,14 @@ public class Health : MonoBehaviour
         healthBar.SetHealth(health);
         if (health <= 0)
         {
-            transform.position = spawnPoint.position;
-            RestoreAllHealth();
+            PlayerDeath();
         }
     }
+
+    public void PlayerDeath()
+    {
+        RespawnEventEmitter.Invoke();
+        RestoreAllHealth();
+    }
+
 }
