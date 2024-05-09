@@ -9,6 +9,8 @@ public class Move : MonoBehaviour
 
     private bool _grounded;
 
+    private bool canMove = true;
+
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
@@ -16,6 +18,7 @@ public class Move : MonoBehaviour
 
     void Update()
     {
+        if (!canMove) return;
         if(Input.GetAxis("Horizontal") != 0)
         {
             MovePlayer();
@@ -57,5 +60,10 @@ public class Move : MonoBehaviour
         float step = _speed * Time.deltaTime;
 
         transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x + direction * step, transform.position.y), step);
+    }
+
+    public void CanMove(bool move)
+    {
+        canMove = move;
     }
 }
