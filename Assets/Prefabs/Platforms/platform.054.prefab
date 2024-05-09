@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8178677483629712710}
   - component: {fileID: 4843552751829573062}
   - component: {fileID: -7412830019810913696}
+  - component: {fileID: 6359187225116336106}
   m_Layer: 0
   m_Name: platform.054
   m_TagString: Ground
@@ -113,3 +114,24 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!65 &6359187225116336106
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8196674832323522905}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.03757886, y: 0.04810057, z: 0.01790561}
+  m_Center: {x: 0.002579898, y: 0.0011619234, z: 0.0015061217}
