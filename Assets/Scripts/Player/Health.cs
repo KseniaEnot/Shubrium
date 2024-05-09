@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
+    public Transform spawnPoint;
+
     public float health;
     public float maxHealth;
     public float healingRate;
@@ -28,13 +30,29 @@ public class Health : MonoBehaviour
         }
     }
 
+    public void RestoreAllHealth()
+    {
+        health = maxHealth;
+        healthBar.SetHealth(health);
+    }
+
+    public void RestoreHealth(float healing)
+    {
+        if (health < maxHealth)
+        {
+            health += healing;
+            healthBar.SetHealth(health);
+        }
+    }
+
     public void TakeDamage(float damage)
     {
         health -= damage;
         healthBar.SetHealth(health);
         if (health <= 0)
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            transform.position = spawnPoint.position;
+            RestoreAllHealth();
         }
     }
 }
