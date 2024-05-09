@@ -983,6 +983,32 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f4498f12976fd61418d3d8f760935dfe, type: 3}
+--- !u!1 &1041985828 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3703280353616656778, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
+  m_PrefabInstance: {fileID: 1262465006704381522}
+  m_PrefabAsset: {fileID: 0}
+--- !u!135 &1041985835
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1041985828}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 1.21
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &1095375943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2303,7 +2329,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1634883394870384076, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 18.92
+      value: 19.26
       objectReference: {fileID: 0}
     - target: {fileID: 1634883394870384076, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2341,10 +2367,34 @@ PrefabInstance:
       propertyPath: m_Name
       value: SimpleEnemy
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 5814591280850034157, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
+      propertyPath: m_Height
+      value: 1.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 5814591280850034157, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
+      propertyPath: m_Radius
+      value: 1.42
+      objectReference: {fileID: 0}
+    - target: {fileID: 5814591280850034157, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
+      propertyPath: m_Center.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8108424350492640304, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.65
+      objectReference: {fileID: 0}
+    - target: {fileID: 8423330687007127021, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.51
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5814591280850034157, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3703280353616656778, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1041985835}
   m_SourcePrefab: {fileID: 100100000, guid: 81abca970ba169f40aefff2d2b5a382e, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

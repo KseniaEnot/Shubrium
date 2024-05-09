@@ -3,7 +3,52 @@ guid: ccf6f3dc23c971949a5f41c4a782feb5
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.024
+    second: {fileID: 2100000, guid: fb027f1f503a0e24fbfa260ea901f78e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Yellow - Crystal
+    second: {fileID: 2100000, guid: b9d2e94d23f123d4589ef262f4c19a76, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gem.001
+    second: {fileID: 2100000, guid: 3440f8f9afb2d554e8fadb7b14c894e8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gem.002
+    second: {fileID: 2100000, guid: 7b5ebd6335382194eb29b06f0b36d248, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gem.003
+    second: {fileID: 2100000, guid: 2b1412aa171a1884092143a2550b3b38, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gem.004
+    second: {fileID: 2100000, guid: 7b53792886eac8c4a8db126d5cb14f61, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gem.005
+    second: {fileID: 2100000, guid: 5b5f03468b86d974f8d7bbf0da749199, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: gem2
+    second: {fileID: 2100000, guid: 1bc0b5e9e6d0a0c4fa4a0b15dac60bdd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: stone
+    second: {fileID: 2100000, guid: 1218a6aef28b4a345b0eb56408c58aca, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
