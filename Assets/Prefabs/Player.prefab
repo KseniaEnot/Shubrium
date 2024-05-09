@@ -723,6 +723,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6534021804907797711}
   - component: {fileID: 9006387532951522928}
+  - component: {fileID: 1206288938196761157}
   m_Layer: 0
   m_Name: FeetPosition
   m_TagString: Untagged
@@ -766,6 +767,18 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.32
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1206288938196761157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4783656976932020893}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33fbd1b6701b4f644bb2246bdf78e208, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5482719118977860853
 GameObject:
   m_ObjectHideFlags: 0
@@ -990,7 +1003,7 @@ GameObject:
   - component: {fileID: 6332736702474462748}
   - component: {fileID: 8448054532458973091}
   - component: {fileID: 3336583640584200119}
-  - component: {fileID: 4423841986229782857}
+  - component: {fileID: 5929730896209970188}
   m_Layer: 5
   m_Name: PlayerHealthHandle
   m_TagString: Untagged
@@ -1081,7 +1094,7 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &4423841986229782857
+--- !u!114 &5929730896209970188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
