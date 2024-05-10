@@ -44,20 +44,25 @@ public class EnemyWander : MonoBehaviour
         {
             rigidBody.velocity = new Vector3(movementSpeed, 0, 0);
         }
-        if (doesRotate)
+        
+        if ((navTargetDistance < navPointRadius) && currentNavTarget == leftPoint.transform)
         {
-            if ((navTargetDistance < navPointRadius) && currentNavTarget == leftPoint.transform)
+            currentNavTarget = rightPoint.transform;
+            if (doesRotate)
             {
-                targetRotation = Quaternion.AngleAxis(180, Vector3.up);
-                currentNavTarget = rightPoint.transform;
+                targetRotation = Quaternion.AngleAxis(180, Vector3.up);      
             }
-            else if ((navTargetDistance < navPointRadius) && currentNavTarget == rightPoint.transform)
+        }
+        else if ((navTargetDistance < navPointRadius) && currentNavTarget == rightPoint.transform)
+        {
+            currentNavTarget = leftPoint.transform;
+            if (doesRotate)
             {
                 targetRotation = Quaternion.AngleAxis(0, Vector3.down);
-                currentNavTarget = leftPoint.transform;
             }
-            transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
+            
         }
+        transform.rotation = Quaternion.Lerp(transform.rotation, targetRotation, rotationSpeed * Time.deltaTime);
         
     }
 

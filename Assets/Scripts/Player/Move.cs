@@ -7,12 +7,27 @@ public class Move : MonoBehaviour
 
     private Rigidbody _rb;
 
-    private bool _grounded;
+    private bool canJump;
+    private bool grounded;
 
     private bool canMove = true;
 
+    private float jumpCooldown = 0.2f;
+    private float untilNextJump;
+
+    public int jumpsAmount;
+    private int jumpsLeft;
+
+    private float groundCheckCooldown =0.5f;
+    private float untilGroundCheck;
+
+
+
     void Start()
     {
+        jumpsLeft = jumpsAmount;
+        untilNextJump = 0;
+        untilGroundCheck = 0;
         _rb = GetComponent<Rigidbody>();
     }
 
@@ -20,13 +35,31 @@ public class Move : MonoBehaviour
     {
         if (!canMove) return;
 
-        if(Input.GetAxis("Horizontal") != 0) MovePlayer();
-        if ((Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && _grounded) Jump();
+        if (Input.GetAxis("Horizontal") != 0) MovePlayer();
+        if (
+            (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+             && canJump
+           )
+        {
+            Jump();
+            jumpsLeft--;
+        }
+
+        if (untilNextJump >= 0)
+        {
+            untilNextJump -= Time.deltaTime;
+        }
+        if (untilGroundCheck >= 0)
+        {
+            untilGroundCheck -= Time.deltaTime;
+        }
+        CanJump();
     }
 
     private void Jump()
     {
-        ChangeGround(false);
+        untilNextJump = jumpCooldown;
+        SetGrounded(false);
         _rb.velocity = new Vector3(0, _jumpForce, 0);
     }
 
@@ -50,5 +83,29 @@ public class Move : MonoBehaviour
 
     public void CanMove(bool move) => canMove = move;
 
-    public void ChangeGround(bool jump) => _grounded = jump;
+    public void CanJump()
+    {
+        canJump = (grounded || (jumpsLeft > 0)) && (jumpsLeft > 0) && (untilNextJump <= 0);
+    }
+
+    public void SetGrounded(bool isGrounded)
+    {
+        
+        if (!isGrounded)
+        {
+            grounded = isGrounded;
+        }
+        if (untilGroundCheck <= 0)
+        {
+            grounded = isGrounded;
+            CanJump();
+            if (isGrounded)
+            {
+                jumpsLeft = jumpsAmount;
+            }
+            
+        }
+        untilGroundCheck = groundCheckCooldown;
+        
+    }
 }
