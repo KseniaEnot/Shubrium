@@ -4872,7 +4872,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.8, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 541703426194152655}
@@ -5070,7 +5070,7 @@ ParticleSystem:
       maxColor: {r: 0.5647059, g: 0.37254903, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 0.37254906, g: 0.8881947, b: 1, a: 1}
+        key0: {r: 0.5647059, g: 0.37254903, b: 1, a: 1}
         key1: {r: 0.43025324, g: 0.3986928, b: 1, a: 1}
         key2: {r: 0.5647059, g: 0.37254903, b: 1, a: 0}
         key3: {r: 0.5647059, g: 0.37254903, b: 1, a: 0}
@@ -5095,7 +5095,7 @@ ParticleSystem:
         atime6: 0
         atime7: 0
         m_Mode: 0
-        m_ColorSpace: 0
+        m_ColorSpace: -1
         m_NumColorKeys: 3
         m_NumAlphaKeys: 2
       minGradient:
