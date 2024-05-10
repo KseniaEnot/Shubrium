@@ -356,7 +356,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _speed: 10
-  _jumpForce: 15
+  _jumpForce: 10
   jumpsAmount: 1
 --- !u!54 &8619373846182172071
 Rigidbody:
