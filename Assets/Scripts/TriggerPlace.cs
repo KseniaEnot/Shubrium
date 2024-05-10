@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.Events;
 
-public class Monologue : MonoBehaviour
+public class TriggerPlace : MonoBehaviour
 {
     [SerializeField] private UnityEvent _action;
 
@@ -9,7 +9,7 @@ public class Monologue : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            other.GetComponent<Move>().CanMove(false);
+            if(tag == "Monologue") other.GetComponent<Move>().CanMove(false);
             _action.Invoke();
         }
     }
