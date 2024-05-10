@@ -315,6 +315,7 @@ GameObject:
   - component: {fileID: 2227033383035708855}
   - component: {fileID: 7803070629491972513}
   - component: {fileID: 8348540826346106465}
+  - component: {fileID: 8838100471175424430}
   m_Layer: 0
   m_Name: PlayerActor
   m_TagString: Player
@@ -437,31 +438,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   respawnEvent:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 8348540826346106465}
-        m_TargetAssemblyTypeName: Respawnable, Assembly-CSharp
-        m_MethodName: Respawn
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Respawnable, Assembly-CSharp
-        m_MethodName: Respawn
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 1
+      m_Calls: []
 --- !u!114 &8348540826346106465
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,6 +454,20 @@ MonoBehaviour:
   respawnPoint: {fileID: 4273314262325458668}
   respawnEventSources:
   - {fileID: 7803070629491972513}
+--- !u!114 &8838100471175424430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2627030363143871127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f2ae340b4308aa4dbb86afd1ebc9999, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flashlightControlKey: 102
+  flashlight: {fileID: 5482719118977860853}
 --- !u!1 &2716381218652811964
 GameObject:
   m_ObjectHideFlags: 0

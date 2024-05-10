@@ -193,11 +193,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc7ec4b14204bf046add5a6b5066a818, type: 3}
---- !u!4 &26032009 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3059521171799361509, guid: d36363e570fa4d24998836ac4e075269, type: 3}
-  m_PrefabInstance: {fileID: 922944108}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &50688773
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1455,7 +1450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fa7155796051b734daa718462081dc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_BindingMode: 1
+  m_BindingMode: 0
   m_FollowOffset: {x: 0, y: 0, z: -51.65}
   m_XDamping: 1
   m_YDamping: 1
@@ -1548,7 +1543,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1636449253}
+    m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 2517678033496606931, guid: d36363e570fa4d24998836ac4e075269, type: 3}
       propertyPath: cameraPosition
@@ -1793,6 +1788,10 @@ PrefabInstance:
     - target: {fileID: 2221836684814055547, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: InitialModule.startColor.maxGradient.m_ColorSpace
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4125827216732596650, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
+      propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4903989986093316332, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: m_Name
@@ -3182,7 +3181,6 @@ Transform:
   - {fileID: 211978072}
   - {fileID: 1241856600}
   - {fileID: 1564268875}
-  - {fileID: 26032009}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1644443823 stripped
@@ -3972,6 +3970,7 @@ SceneRoots:
   - {fileID: 1322163438}
   - {fileID: 1494461317}
   - {fileID: 95446582}
+  - {fileID: 922944108}
   - {fileID: 1636449253}
   - {fileID: 1029048146}
   - {fileID: 1970817687}
