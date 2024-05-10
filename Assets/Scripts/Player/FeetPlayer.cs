@@ -13,11 +13,7 @@ public class FeetPlayer : MonoBehaviour
     {
         if (other.gameObject.tag == "Ground")
         {
-            _player.ChangeGround(true);
-        }
-        else
-        {
-            _player.ChangeGround(false);
+            _player.SetGrounded(true);
         }
     }
 }
