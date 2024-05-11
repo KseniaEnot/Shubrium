@@ -358,7 +358,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _speed: 10
   _jumpForce: 10
-  jumpsAmount: 1
+  feetPosition: {fileID: 6534021804907797711}
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  gravityFallingForce: 0
+  bonusJumps: 0
 --- !u!54 &8619373846182172071
 Rigidbody:
   m_ObjectHideFlags: 0
