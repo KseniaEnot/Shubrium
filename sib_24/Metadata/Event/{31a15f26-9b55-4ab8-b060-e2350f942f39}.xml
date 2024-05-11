@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{31a15f26-9b55-4ab8-b060-e2350f942f39}">
 		<property name="name">
-			<value>music_test</value>
+			<value>music_menu</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -60,7 +60,7 @@
 	<object class="MarkerTrack" id="{f21a85cc-bd46-499c-9566-07df752a795b}" />
 	<object class="GroupTrack" id="{469cbc67-9c0f-4878-951e-52e039c382b7}">
 		<relationship name="modules">
-			<destination>{403cbba9-68a7-4de0-8912-3272fa2fdab0}</destination>
+			<destination>{56415ce1-b836-4a0f-9d44-2b94702bb537}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{9c5078be-3948-4b27-83c6-53a98e8cda55}</destination>
@@ -68,10 +68,10 @@
 	</object>
 	<object class="Timeline" id="{426b03cb-a27d-4127-a1c7-b718dac63a60}">
 		<relationship name="modules">
-			<destination>{403cbba9-68a7-4de0-8912-3272fa2fdab0}</destination>
+			<destination>{56415ce1-b836-4a0f-9d44-2b94702bb537}</destination>
 		</relationship>
 		<relationship name="markers">
-			<destination>{e01ef3fe-0c16-4a53-b104-a5f08dd67c21}</destination>
+			<destination>{9f4b0ada-70c7-4cdb-b555-51502cccf630}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{6993d982-a9ec-40eb-a42b-2927c7d9fe0f}">
@@ -91,17 +91,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4e283954-60bd-4b27-b1d9-36fafb819127}" />
-	<object class="SingleSound" id="{403cbba9-68a7-4de0-8912-3272fa2fdab0}">
+	<object class="SingleSound" id="{56415ce1-b836-4a0f-9d44-2b94702bb537}">
 		<property name="length">
-			<value>24.241632653061224</value>
+			<value>64.598208333333332</value>
 		</property>
 		<relationship name="audioFile">
-			<destination>{f83d563c-e480-4517-9ea7-0750d01ccd35}</destination>
+			<destination>{1c874eb7-a669-4bdf-b323-ce84506098ad}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9c5078be-3948-4b27-83c6-53a98e8cda55}">
 		<property name="volume">
-			<value>-20</value>
+			<value>-7</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -116,12 +116,12 @@
 			<destination>{6993d982-a9ec-40eb-a42b-2927c7d9fe0f}</destination>
 		</relationship>
 	</object>
-	<object class="LoopRegion" id="{e01ef3fe-0c16-4a53-b104-a5f08dd67c21}">
+	<object class="LoopRegion" id="{9f4b0ada-70c7-4cdb-b555-51502cccf630}">
 		<property name="position">
 			<value>0</value>
 		</property>
 		<property name="length">
-			<value>24.241632653061224</value>
+			<value>70</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{426b03cb-a27d-4127-a1c7-b718dac63a60}</destination>

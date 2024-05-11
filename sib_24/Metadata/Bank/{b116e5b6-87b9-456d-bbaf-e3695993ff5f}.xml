@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="Bank" id="{b116e5b6-87b9-456d-bbaf-e3695993ff5f}">
+		<property name="name">
+			<value>VO</value>
+		</property>
+		<relationship name="folder">
+			<destination>{60161b66-ec61-43e8-bb58-4e3a764c9756}</destination>
+		</relationship>
+		<relationship name="audioTable">
+			<destination>{f2144f78-35f3-46df-a68c-0c3731ba190b}</destination>
+		</relationship>
+	</object>
+	<object class="AudioTable" id="{f2144f78-35f3-46df-a68c-0c3731ba190b}">
+		<property name="name">
+			<value>VoiceOver</value>
+		</property>
+		<property name="sourceDirectory">
+			<value>../Assets/Voiceover</value>
+		</property>
+	</object>
+</objects>

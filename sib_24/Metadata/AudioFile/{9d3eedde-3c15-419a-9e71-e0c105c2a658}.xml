@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{9d3eedde-3c15-419a-9e71-e0c105c2a658}">
+		<property name="assetPath">
+			<value>voidwalker_1.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>99.6923125</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{22c07f93-51c7-4e76-b7bc-29a3ccecdfe1}</destination>
+		</relationship>
+	</object>
+</objects>
