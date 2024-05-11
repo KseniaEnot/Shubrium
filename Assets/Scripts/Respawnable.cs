@@ -17,6 +17,7 @@ public class Respawnable : MonoBehaviour
 
     public void Respawn()
     {
+        gameObject.SetActive(true);
         transform.position = respawnPoint.position;
     }
 
