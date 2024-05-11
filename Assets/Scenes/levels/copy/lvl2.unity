@@ -2363,7 +2363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 741431287300869009, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: m_Intensity
-      value: 0
+      value: 3.202948
       objectReference: {fileID: 0}
     - target: {fileID: 1623380939302669161, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: m_Materials.Array.size
@@ -2383,7 +2383,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7737202305269828425, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 3
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7737202305269828425, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -2395,15 +2395,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7737202305269828425, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: ChangeScene
+      value: Play
       objectReference: {fileID: 0}
     - target: {fileID: 7737202305269828425, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: SceneChanger, Assembly-CSharp
+      value: FMODUnity.StudioEventEmitter, FMODUnity
       objectReference: {fileID: 0}
     - target: {fileID: 7737202305269828425, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 3
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7737202305269828425, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: _action.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_IntArgument
@@ -2428,13 +2428,13 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
 --- !u!114 &505539822 stripped
 MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 3822002960254901670, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
+  m_CorrespondingSourceObject: {fileID: 8143275404442280259, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
   m_PrefabInstance: {fileID: 505539821}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e1eb2d7221b4274a8704a8834c00879, type: 3}
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &517865963

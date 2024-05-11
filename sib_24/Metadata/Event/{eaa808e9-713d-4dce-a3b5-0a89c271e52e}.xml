@@ -105,8 +105,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{14cb09a0-199a-49df-b100-b422b675785b}" />
 	<object class="SoundScatterer" id="{fa1916ea-e023-4268-8503-ddc1314292a3}">
+		<property name="start">
+			<value>4</value>
+		</property>
 		<property name="length">
-			<value>12.75</value>
+			<value>8.7500000000000142</value>
 		</property>
 		<property name="polyphony">
 			<value>1</value>
@@ -192,10 +195,10 @@
 	</object>
 	<object class="LoopRegion" id="{c85da1c4-d4c0-465e-9cbe-45a9cbd203dc}">
 		<property name="position">
-			<value>0</value>
+			<value>4</value>
 		</property>
 		<property name="length">
-			<value>12.75</value>
+			<value>8.7500000000000142</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{3068415a-b119-4614-987e-fdc6b5040508}</destination>
@@ -266,7 +269,7 @@
 			<value>0.900000036</value>
 		</property>
 		<property name="maximumDistance">
-			<value>500</value>
+			<value>100</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>
