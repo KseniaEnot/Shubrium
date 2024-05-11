@@ -318,6 +318,7 @@ GameObject:
   - component: {fileID: 8838100471175424430}
   - component: {fileID: 6171288456457450520}
   - component: {fileID: 3570483263288652415}
+  - component: {fileID: 7493999712823002888}
   m_Layer: 0
   m_Name: PlayerActor
   m_TagString: Player
@@ -530,8 +531,51 @@ MonoBehaviour:
   diggableTag: Destructible
   digging:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7493999712823002888}
+        m_TargetAssemblyTypeName: FMODUnity.StudioEventEmitter, FMODUnity
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   hasShovel: 0
+--- !u!114 &7493999712823002888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2627030363143871127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -1994407643
+      Data2: 1102872556
+      Data3: -751168119
+      Data4: 27630286
+    Path: event:/SFX/SFX_digging
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  AllowNonRigidbodyDoppler: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2716381218652811964
 GameObject:
   m_ObjectHideFlags: 0
