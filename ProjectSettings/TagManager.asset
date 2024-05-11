@@ -8,6 +8,7 @@ TagManager:
   - FxTemporaire
   - SpawnPoint
   - Monologue
+  - Destructible
   layers:
   - Default
   - TransparentFX
