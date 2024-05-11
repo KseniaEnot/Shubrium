@@ -5368,7 +5368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5908988502933804817, guid: 8b0d59e1569e7e744a9707404bf6f64d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21
+      value: 27.3
       objectReference: {fileID: 0}
     - target: {fileID: 5908988502933804817, guid: 8b0d59e1569e7e744a9707404bf6f64d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -5412,7 +5412,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6366209475620018517, guid: 8b0d59e1569e7e744a9707404bf6f64d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7636229917462605565, guid: 8b0d59e1569e7e744a9707404bf6f64d, type: 3}
       propertyPath: dialogueBox
@@ -5885,7 +5885,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5287033222196158132, guid: 6bc392c965e7d774cb076d455dd59f8d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -41.931374
+      value: -22.7
       objectReference: {fileID: 0}
     - target: {fileID: 5287033222196158132, guid: 6bc392c965e7d774cb076d455dd59f8d, type: 3}
       propertyPath: m_LocalPosition.y

@@ -1335,6 +1335,14 @@ PrefabInstance:
       propertyPath: nextDialogue
       value: 
       objectReference: {fileID: 1882272879}
+    - target: {fileID: 8610837338828440432, guid: 0322f1222587a904c918405f89782dc7, type: 3}
+      propertyPath: dialogueStartDelay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8610837338828440432, guid: 0322f1222587a904c918405f89782dc7, type: 3}
+      propertyPath: dialogueUpdateCooldown
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3950,6 +3958,10 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 143423818}
+    - target: {fileID: 3183926738400278078, guid: bc95d69a427589b4bbcde68ecf09bc41, type: 3}
+      propertyPath: dialogueUpdateCooldown
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 4772290699124767438, guid: bc95d69a427589b4bbcde68ecf09bc41, type: 3}
       propertyPath: m_Name
       value: Monologue 15th
@@ -4480,7 +4492,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1467049466
 Transform:
   m_ObjectHideFlags: 0
@@ -4947,6 +4959,14 @@ PrefabInstance:
       propertyPath: nextDialogue
       value: 
       objectReference: {fileID: 1353044474}
+    - target: {fileID: 8610219133464652312, guid: 55e949840a1ca4e4780fc39642db4c5d, type: 3}
+      propertyPath: dialogueStartDelay
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8610219133464652312, guid: 55e949840a1ca4e4780fc39642db4c5d, type: 3}
+      propertyPath: dialogueUpdateCooldown
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6201,6 +6221,14 @@ PrefabInstance:
       propertyPath: nextDialogue
       value: 
       objectReference: {fileID: 1587869142}
+    - target: {fileID: 8761658040963120304, guid: a4e38d46fe708e14a9d164d48badd5e8, type: 3}
+      propertyPath: dialogueStartDelay
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8761658040963120304, guid: a4e38d46fe708e14a9d164d48badd5e8, type: 3}
+      propertyPath: dialogueUpdateCooldown
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8761658040963120304, guid: a4e38d46fe708e14a9d164d48badd5e8, type: 3}
       propertyPath: dialogue.sentences.Array.size
       value: 3
