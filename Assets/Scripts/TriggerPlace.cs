@@ -9,7 +9,7 @@ public class TriggerPlace : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
         {
-            //if(tag == "Monologue") other.GetComponent<Move>().CanMove(false);
+            if(tag == "Monologue") other.GetComponent<Move>().CanMove(false);
             _action.Invoke();
         }
     }
