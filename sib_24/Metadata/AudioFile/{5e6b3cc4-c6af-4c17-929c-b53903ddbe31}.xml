@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{5e6b3cc4-c6af-4c17-929c-b53903ddbe31}">
+		<property name="assetPath">
+			<value>fly_12.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.9375</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{22c07f93-51c7-4e76-b7bc-29a3ccecdfe1}</destination>
+		</relationship>
+	</object>
+</objects>
