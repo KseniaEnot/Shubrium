@@ -19,6 +19,7 @@
 			<destination>{3b23b147-7f42-4926-b010-aae3e8bea12f}</destination>
 			<destination>{a012aeb3-6933-41f7-a653-c8bb143f22b2}</destination>
 			<destination>{674b1731-3796-421b-9946-e06869d09e05}</destination>
+			<destination>{52f854c5-92d0-4fcc-bfc4-27fa10d9f015}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{50963df5-621f-422e-a697-bcaa4dd8dfea}" />
@@ -35,7 +36,8 @@
 		</property>
 		<relationship name="sidechains">
 			<destination>{caa7c648-9d8f-4cd7-a30b-c38d58b20b91}</destination>
-			<destination>{91c85666-22ac-4f93-bad5-690db1502879}</destination>
+			<destination>{a472e13a-1657-4100-8856-b3250301abd5}</destination>
+			<destination>{9e3951ed-08fc-4bee-994b-9518edc03602}</destination>
 		</relationship>
 	</object>
 	<object class="CompressorEffect" id="{674b1731-3796-421b-9946-e06869d09e05}">
@@ -52,5 +54,13 @@
 			<destination>{43e0d215-ce08-432a-b98f-fce294a884e1}</destination>
 			<destination>{b83fff31-4bf2-496b-9b26-ae1d63b085ad}</destination>
 		</relationship>
+	</object>
+	<object class="MultibandEqEffect" id="{52f854c5-92d0-4fcc-bfc4-27fa10d9f015}">
+		<property name="filterTypeA">
+			<value>2</value>
+		</property>
+		<property name="frequencyA">
+			<value>22000</value>
+		</property>
 	</object>
 </objects>
