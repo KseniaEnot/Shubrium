@@ -70,6 +70,9 @@
 		<relationship name="modules">
 			<destination>{8f990002-90cc-4e0f-aa0c-cda1431943a5}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{a401952a-539e-477b-842d-12f9e6b95efe}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2e55f912-7340-40e0-a2d7-5f785d5d37c7}">
 		<relationship name="effectChain">
@@ -89,8 +92,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{c0eb6d53-8259-4925-ba08-afdeedbe6d00}" />
 	<object class="SoundScatterer" id="{8f990002-90cc-4e0f-aa0c-cda1431943a5}">
+		<property name="start">
+			<value>5</value>
+		</property>
 		<property name="length">
-			<value>20</value>
+			<value>14.999999999999993</value>
 		</property>
 		<property name="polyphony">
 			<value>1</value>
@@ -137,6 +143,20 @@
 			<destination>{2e55f912-7340-40e0-a2d7-5f785d5d37c7}</destination>
 		</relationship>
 	</object>
+	<object class="LoopRegion" id="{a401952a-539e-477b-842d-12f9e6b95efe}">
+		<property name="position">
+			<value>5</value>
+		</property>
+		<property name="length">
+			<value>15.000000000000018</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{acf32f50-dd04-4cd0-aa5e-5f05ef5be5fd}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{3d2fd39a-0b95-4c33-8177-7f0425d21dff}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{8a522795-0182-45fb-b4b2-d684f98ff299}">
 		<relationship name="effects">
 			<destination>{3e6b8332-0f60-401c-b4cd-bda518d03f5e}</destination>
@@ -169,7 +189,26 @@
 	</object>
 	<object class="MixerBusPanner" id="{a8c4f2a1-9031-450a-b706-013cde1d3cdd}" />
 	<object class="MixerBusFader" id="{3e6b8332-0f60-401c-b4cd-bda518d03f5e}" />
-	<object class="SpatialiserEffect" id="{956c68ca-7c1d-41d6-b54b-c4a271c18bac}" />
+	<object class="SpatialiserEffect" id="{956c68ca-7c1d-41d6-b54b-c4a271c18bac}">
+		<property name="minimumDistance">
+			<value>0.900000036</value>
+		</property>
+		<property name="maximumDistance">
+			<value>75</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>10.5</value>
+		</property>
+		<property name="minimumExtent">
+			<value>154</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{29a2c52d-2d74-4b6f-8cf9-358a594b2ea7}">
 		<relationship name="audioFile">
 			<destination>{9a7aef52-3d5e-42b2-9f42-150d7bc1bda7}</destination>
