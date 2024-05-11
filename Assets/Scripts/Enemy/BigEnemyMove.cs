@@ -13,6 +13,10 @@ public class BigEnemyMove : MonoBehaviour
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
+    }
+
+    private void Update()
+    {
         rb.velocity = movementDirection * movementSpeed;
     }
 
