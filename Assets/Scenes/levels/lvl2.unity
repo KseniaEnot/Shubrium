@@ -841,7 +841,7 @@ GameObject:
   - component: {fileID: 168200295}
   - component: {fileID: 168200294}
   - component: {fileID: 168200293}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platform (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2068,7 +2068,7 @@ GameObject:
   - component: {fileID: 517865966}
   - component: {fileID: 517865965}
   - component: {fileID: 517865964}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: big_platform (1)
   m_TagString: Ground
   m_Icon: {fileID: 0}
@@ -2361,6 +2361,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform2 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 5127322852093872976, guid: 83bc02fc2eadf6a438af82a310a78e43, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []
@@ -2540,6 +2544,10 @@ PrefabInstance:
     - target: {fileID: 8196674832323522905, guid: 590aa5f76b138f94f96490bad05f81e1, type: 3}
       propertyPath: m_Name
       value: platform6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8196674832323522905, guid: 590aa5f76b138f94f96490bad05f81e1, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -3275,8 +3283,8 @@ Transform:
   m_GameObject: {fileID: 970130074}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -92.1, y: -144.4, z: 106}
-  m_LocalScale: {x: 10, y: 10, z: 1}
+  m_LocalPosition: {x: -92.1, y: 10.9, z: 50}
+  m_LocalScale: {x: 5, y: 5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3567,6 +3575,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: exitPlatform
       objectReference: {fileID: 0}
+    - target: {fileID: 6940807671794840969, guid: f4498f12976fd61418d3d8f760935dfe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []
@@ -3694,6 +3706,10 @@ PrefabInstance:
     - target: {fileID: 6940807671794840969, guid: f4498f12976fd61418d3d8f760935dfe, type: 3}
       propertyPath: m_Name
       value: exitPlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940807671794840969, guid: f4498f12976fd61418d3d8f760935dfe, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -3952,6 +3968,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform6
       objectReference: {fileID: 0}
+    - target: {fileID: 8196674832323522905, guid: 590aa5f76b138f94f96490bad05f81e1, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []
@@ -4021,6 +4041,10 @@ PrefabInstance:
     - target: {fileID: 5127322852093872976, guid: 83bc02fc2eadf6a438af82a310a78e43, type: 3}
       propertyPath: m_Name
       value: platform4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127322852093872976, guid: 83bc02fc2eadf6a438af82a310a78e43, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -4215,6 +4239,10 @@ PrefabInstance:
     - target: {fileID: 5127322852093872976, guid: 83bc02fc2eadf6a438af82a310a78e43, type: 3}
       propertyPath: m_Name
       value: platform4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127322852093872976, guid: 83bc02fc2eadf6a438af82a310a78e43, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -4424,6 +4452,10 @@ PrefabInstance:
     - target: {fileID: 6940807671794840969, guid: f4498f12976fd61418d3d8f760935dfe, type: 3}
       propertyPath: m_Name
       value: exitPlatform (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940807671794840969, guid: f4498f12976fd61418d3d8f760935dfe, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -4644,6 +4676,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: platform2
       objectReference: {fileID: 0}
+    - target: {fileID: 5127322852093872976, guid: 83bc02fc2eadf6a438af82a310a78e43, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []
@@ -4713,6 +4749,10 @@ PrefabInstance:
     - target: {fileID: 6940807671794840969, guid: f4498f12976fd61418d3d8f760935dfe, type: 3}
       propertyPath: m_Name
       value: exitPlatform
+      objectReference: {fileID: 0}
+    - target: {fileID: 6940807671794840969, guid: f4498f12976fd61418d3d8f760935dfe, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -5783,6 +5823,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: exitPlatform (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6940807671794840969, guid: f4498f12976fd61418d3d8f760935dfe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
     m_RemovedGameObjects: []
@@ -5816,9 +5860,9 @@ GameObject:
   - component: {fileID: 2043548999}
   - component: {fileID: 2043548998}
   - component: {fileID: 2043548997}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: platform
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6098,6 +6142,10 @@ PrefabInstance:
     - target: {fileID: 5127322852093872976, guid: 83bc02fc2eadf6a438af82a310a78e43, type: 3}
       propertyPath: m_Name
       value: platform2 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5127322852093872976, guid: 83bc02fc2eadf6a438af82a310a78e43, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
