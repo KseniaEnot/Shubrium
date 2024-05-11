@@ -16,6 +16,13 @@ public class DialogueManager : MonoBehaviour
 
     public GameObject nextDialogue;
 
+    public bool isRunning;
+
+    public float dialogueUpdateCooldown;
+    private float untilNextDialogue;
+
+    public float dialogueStartDelay;
+
     private void Start()
     {
         sentences = new Queue<string>();
@@ -23,15 +30,25 @@ public class DialogueManager : MonoBehaviour
 
     public void Update()
     {
-        if (dialogueBox.activeSelf == true && Input.GetKeyDown(KeyCode.Return))
+        if (isRunning && gameObject.activeSelf)
         {
-            DisplayNextSentence();
+
+            if (Input.GetKeyDown(KeyCode.Return) || untilNextDialogue <= 0)
+            {
+                dialogueBox.SetActive(true);
+                DisplayNextSentence();
+            }
+            if (untilNextDialogue > 0)
+            {
+                untilNextDialogue -= Time.deltaTime;
+            }
         }
+        
     }
 
     public void StartDialogue()
     {
-        dialogueBox.SetActive(true);
+        isRunning = true;
 
         sentences.Clear();
 
@@ -39,11 +56,13 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
-        DisplayNextSentence();
+        
+        untilNextDialogue = 0 + dialogueStartDelay;
     }
 
     public void DisplayNextSentence()
     {
+        untilNextDialogue = dialogueUpdateCooldown;
         if (sentences.Count == 0)
         {
             EndDialogue();
@@ -70,5 +89,6 @@ public class DialogueManager : MonoBehaviour
             nextDialogue.SetActive(true);
         }    
         gameObject.SetActive(false);
+        isRunning = false;
     }
 }
