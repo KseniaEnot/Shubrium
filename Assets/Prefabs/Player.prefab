@@ -317,6 +317,7 @@ GameObject:
   - component: {fileID: 8348540826346106465}
   - component: {fileID: 8838100471175424430}
   - component: {fileID: 6171288456457450520}
+  - component: {fileID: 3570483263288652415}
   m_Layer: 0
   m_Name: PlayerActor
   m_TagString: Player
@@ -512,6 +513,25 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!114 &3570483263288652415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2627030363143871127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c41fab9b526dd43a64322e17ef902d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  digStartPoint: {fileID: 8636403940979869869}
+  diggingCheckSize: 0.8
+  diggableTag: Destructible
+  digging:
+    m_PersistentCalls:
+      m_Calls: []
+  hasShovel: 0
 --- !u!1 &2716381218652811964
 GameObject:
   m_ObjectHideFlags: 0
