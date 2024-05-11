@@ -8,12 +8,12 @@ public class FeetPlayer : MonoBehaviour
     {
         _player = GetComponentInParent<Move>();
     }
-
+    /*
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Ground")
         {
             _player.SetGrounded(true);
         }
-    }
+    }*/
 }

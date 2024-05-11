@@ -8,14 +8,23 @@ public class Move : MonoBehaviour
     private Rigidbody _rb;
 
     private bool canJump;
+
+    //For checking if the player can jump
+    public Transform feetPosition;
     private bool grounded;
+    private float groundCheckSize =0.5f;
+    public LayerMask groundLayer;
+
+    [SerializeField] private float gravityFallingForce;
+    private Vector3 gravityVector;
 
     private bool canMove = true;
 
     private float jumpCooldown = 0.2f;
     private float untilNextJump;
+    private bool isJumping;
 
-    public int jumpsAmount;
+    public int bonusJumps;
     private int jumpsLeft;
 
     private float groundCheckCooldown =0.5f;
@@ -25,10 +34,11 @@ public class Move : MonoBehaviour
 
     void Start()
     {
-        jumpsLeft = jumpsAmount;
+        jumpsLeft = bonusJumps;
         untilNextJump = 0;
         untilGroundCheck = 0;
         _rb = GetComponent<Rigidbody>();
+        gravityVector = new Vector3(0, -Physics.gravity.y, 0);
     }
 
     void Update()
@@ -41,26 +51,52 @@ public class Move : MonoBehaviour
              && canJump
            )
         {
+            if (isJumping)
+            {
+                jumpsLeft--;
+            }
             Jump();
-            jumpsLeft--;
         }
 
         if (untilNextJump >= 0)
         {
             untilNextJump -= Time.deltaTime;
         }
-        if (untilGroundCheck >= 0)
+        if (untilGroundCheck > 0)
         {
             untilGroundCheck -= Time.deltaTime;
         }
+        else if (untilGroundCheck <= 0)
+        {
+            isGrounded();
+            if (grounded)
+            {
+                jumpsLeft = bonusJumps;
+                isJumping = false;
+            }
+            else
+            {
+                if (!isJumping)
+                {
+                    jumpsLeft = 0;
+                }
+            }
+        }
+        if (_rb.velocity.y < 0.5f)
+        {
+            _rb.velocity -= gravityVector * gravityFallingForce * Time.deltaTime;
+        }
+
         CanJump();
     }
 
     private void Jump()
     {
+        isJumping = true;
         untilNextJump = jumpCooldown;
-        SetGrounded(false);
-        _rb.velocity = new Vector3(0, _jumpForce, 0);
+        grounded = false;
+        untilGroundCheck = groundCheckCooldown;
+        _rb.velocity = new Vector3(_rb.velocity.x, _jumpForce, _rb.velocity.z);
     }
 
     private void MovePlayer()
@@ -85,27 +121,19 @@ public class Move : MonoBehaviour
 
     public void CanJump()
     {
-        canJump = (grounded || (jumpsLeft > 0)) && (jumpsLeft > 0) && (untilNextJump <= 0);
+        canJump = (grounded || (jumpsLeft > 0)) && (untilNextJump <= 0);
     }
 
-    public void SetGrounded(bool isGrounded)
+    public void isGrounded()
     {
-        
-        if (!isGrounded)
-        {
-            grounded = isGrounded;
-        }
-        if (untilGroundCheck <= 0)
-        {
-            grounded = isGrounded;
-            CanJump();
-            if (isGrounded)
-            {
-                jumpsLeft = jumpsAmount;
-            }
-            
-        }
-        untilGroundCheck = groundCheckCooldown;
-        
+        grounded = Physics.Raycast(feetPosition.position, Vector3.down, groundCheckSize, groundLayer);
     }
+
+
 }
+
+
+
+
+
+
