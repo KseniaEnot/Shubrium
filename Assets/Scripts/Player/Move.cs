@@ -22,6 +22,7 @@ public class Move : MonoBehaviour
 
     private float jumpCooldown = 0.2f;
     private float untilNextJump;
+    private bool isRunning;
     private bool isJumping;
 
     public int bonusJumps;
@@ -30,7 +31,11 @@ public class Move : MonoBehaviour
     private float groundCheckCooldown =0.5f;
     private float untilGroundCheck;
 
+    public Animator characterAnimator;
 
+    private float idleTimeMin = 20f;
+    private float idleTimeMax = 50f;
+    private float idleCooldown;
 
     void Start()
     {
@@ -39,13 +44,24 @@ public class Move : MonoBehaviour
         untilGroundCheck = 0;
         _rb = GetComponent<Rigidbody>();
         gravityVector = new Vector3(0, -Physics.gravity.y, 0);
+        idleCooldown = Random.Range(idleTimeMin, idleTimeMax);
     }
 
     void Update()
     {
         if (!canMove) return;
 
-        if (Input.GetAxis("Horizontal") != 0) MovePlayer();
+        if (Input.GetAxis("Horizontal") != 0) {
+            MovePlayer();
+            idleCooldown = Random.Range(idleTimeMin, idleTimeMax);
+        }
+        else
+        {
+            isRunning = false;
+            characterAnimator.SetBool("isRunning", isRunning);
+            
+        }
+
         if (
             (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
              && canJump
@@ -73,6 +89,7 @@ public class Move : MonoBehaviour
             {
                 jumpsLeft = bonusJumps;
                 isJumping = false;
+                characterAnimator.SetBool("isJumping", isJumping);
             }
             else
             {
@@ -87,20 +104,35 @@ public class Move : MonoBehaviour
             _rb.velocity -= gravityVector * gravityFallingForce * Time.deltaTime;
         }
 
+        if (!isRunning && !isJumping && idleCooldown > 0)
+        {
+            idleCooldown -= Time.deltaTime;
+        }
+        if (idleCooldown <= 0)
+        {
+            characterAnimator.SetTrigger("LongIdle");
+            idleCooldown = Random.Range(idleTimeMin, idleTimeMax);
+        }
         CanJump();
+
+
     }
 
     private void Jump()
     {
+        characterAnimator.SetBool("isJumping", true);
         isJumping = true;
         untilNextJump = jumpCooldown;
         grounded = false;
         untilGroundCheck = groundCheckCooldown;
         _rb.velocity = new Vector3(_rb.velocity.x, _jumpForce, _rb.velocity.z);
+        idleCooldown = Random.Range(idleTimeMin, idleTimeMax);
     }
 
     private void MovePlayer()
     {
+        isRunning = true;
+        characterAnimator.SetBool("isRunning", isRunning);
         float direction = Input.GetAxis("Horizontal");
         Quaternion targetRotation = Quaternion.identity;
         if (direction > 0)
