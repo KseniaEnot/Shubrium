@@ -20,6 +20,7 @@
 			<destination>{213bc9d0-0ad3-4562-aed5-5c2282adf931}</destination>
 			<destination>{3aa11802-5eb9-43d8-ac47-5276ad44ca39}</destination>
 			<destination>{6ea7aa0e-0358-4984-952e-4ea4ba88820b}</destination>
+			<destination>{c6995ea4-1572-4a10-ab91-c831e4baaad6}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{fe6fe994-4aa9-44ce-9fde-1baf517c4d04}" />
@@ -27,7 +28,7 @@
 	<object class="MixerBusFader" id="{213bc9d0-0ad3-4562-aed5-5c2282adf931}" />
 	<object class="CompressorEffect" id="{3aa11802-5eb9-43d8-ac47-5276ad44ca39}">
 		<property name="threshold">
-			<value>-33</value>
+			<value>-34.5</value>
 		</property>
 		<property name="ratio">
 			<value>1.64999998</value>
@@ -37,12 +38,13 @@
 		</property>
 		<relationship name="sidechains">
 			<destination>{6e2ccd53-bc7e-468c-8a92-b29e15a811c2}</destination>
-			<destination>{a631922a-ca11-4f1c-ac2c-936e2d3d7be7}</destination>
+			<destination>{f16a177e-01c4-4d42-a950-926ca5560288}</destination>
+			<destination>{15ead2ac-dd7a-4026-9229-6bd4112df3b4}</destination>
 		</relationship>
 	</object>
 	<object class="CompressorEffect" id="{6ea7aa0e-0358-4984-952e-4ea4ba88820b}">
 		<property name="threshold">
-			<value>-31.5</value>
+			<value>-32</value>
 		</property>
 		<property name="releaseTime">
 			<value>520</value>
@@ -50,5 +52,13 @@
 		<relationship name="sidechains">
 			<destination>{7a8abbbc-174e-4f5d-a36d-4418f44a5333}</destination>
 		</relationship>
+	</object>
+	<object class="MultibandEqEffect" id="{c6995ea4-1572-4a10-ab91-c831e4baaad6}">
+		<property name="filterTypeA">
+			<value>2</value>
+		</property>
+		<property name="frequencyA">
+			<value>22000</value>
+		</property>
 	</object>
 </objects>
