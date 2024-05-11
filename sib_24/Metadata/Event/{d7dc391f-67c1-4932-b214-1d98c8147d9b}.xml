@@ -5,7 +5,7 @@
 			<value>sfx_void_portal_active</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{08b7782f-88f7-47fc-a96b-b3de77f6f2de}</destination>
@@ -116,7 +116,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{f29c0aea-ae1b-404a-865b-c003e9679c09}">
 		<property name="volume">
-			<value>2</value>
+			<value>6</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -165,6 +165,7 @@
 	<object class="MixerBusEffectChain" id="{77b35b87-85f6-4360-a36b-b94de3cb1d04}">
 		<relationship name="effects">
 			<destination>{1753075a-f0c5-46a0-b657-4aecb18c11bd}</destination>
+			<destination>{bb9db72a-a413-4985-baa5-9d63854ee3e2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{233bf323-9c78-4348-bc55-5de38ecf94c2}" />
@@ -184,5 +185,25 @@
 	</object>
 	<object class="MixerBusPanner" id="{b41e5667-0f1b-4c8d-850b-af35bda5c1b7}" />
 	<object class="MixerBusFader" id="{1753075a-f0c5-46a0-b657-4aecb18c11bd}" />
+	<object class="SpatialiserEffect" id="{bb9db72a-a413-4985-baa5-9d63854ee3e2}">
+		<property name="minimumDistance">
+			<value>25</value>
+		</property>
+		<property name="maximumDistance">
+			<value>75</value>
+		</property>
+		<property name="overrideRange">
+			<value>true</value>
+		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>46</value>
+		</property>
+		<property name="minimumExtent">
+			<value>76</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{70984df8-3258-4876-880d-4ab91039ce35}" />
 </objects>

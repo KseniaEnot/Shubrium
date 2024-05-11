@@ -53,8 +53,8 @@ MonoBehaviour:
       Data4: 959419407
     Path: event:/Music/music_menu
   Event: 
-  PlayEvent: 0
-  StopEvent: 1
+  PlayEvent: 1
+  StopEvent: 2
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
