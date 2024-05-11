@@ -876,6 +876,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monologue 2nd
       objectReference: {fileID: 0}
+    - target: {fileID: 3475661332870892648, guid: 138fef9ca75a254478601e81ce70933a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5880621606405856166, guid: 138fef9ca75a254478601e81ce70933a, type: 3}
       propertyPath: dialogueBox
       value: 
@@ -905,6 +909,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 138fef9ca75a254478601e81ce70933a, type: 3}
+--- !u!1 &293780458 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3475661332870892648, guid: 138fef9ca75a254478601e81ce70933a, type: 3}
+  m_PrefabInstance: {fileID: 293780457}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &344917267
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1312,6 +1321,10 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 2081200859}
+    - target: {fileID: 3453079818172286058, guid: 3a1ab21d9c649a14c8c638c8cb0f82dc, type: 3}
+      propertyPath: nextDialogue
+      value: 
+      objectReference: {fileID: 293780458}
     - target: {fileID: 3453079818172286058, guid: 3a1ab21d9c649a14c8c638c8cb0f82dc, type: 3}
       propertyPath: dialogueStartDelay
       value: 8
