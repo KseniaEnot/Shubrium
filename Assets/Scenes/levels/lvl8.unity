@@ -3136,6 +3136,10 @@ PrefabInstance:
       propertyPath: nextDialogue
       value: 
       objectReference: {fileID: 1867028524}
+    - target: {fileID: 5602964441859054578, guid: ff4a44465d2748444bafe84b6d876936, type: 3}
+      propertyPath: dialogueUpdateCooldown
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6811685562737257774, guid: ff4a44465d2748444bafe84b6d876936, type: 3}
       propertyPath: m_Name
       value: Monologue 18th
@@ -6636,6 +6640,10 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 170805564}
+    - target: {fileID: 3078444919405644070, guid: a53d29288ef8ab04390b82362212fa8b, type: 3}
+      propertyPath: dialogueUpdateCooldown
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 3168614919326234044, guid: a53d29288ef8ab04390b82362212fa8b, type: 3}
       propertyPath: m_Name
       value: Monologue 19th

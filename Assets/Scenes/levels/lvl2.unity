@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike1
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -237,6 +241,10 @@ PrefabInstance:
     - target: {fileID: 3319065629425718872, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
       propertyPath: m_Name
       value: Spike3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -359,6 +367,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.429727
@@ -416,6 +428,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 43.113327
@@ -854,6 +870,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike3
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -867,6 +887,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 47.653324
@@ -1037,6 +1061,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 37.483326
@@ -1138,6 +1166,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike2
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1195,6 +1227,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike2
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1208,6 +1244,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 22.172863
@@ -1489,6 +1529,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike2
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1669,6 +1713,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike3
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1687,6 +1735,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.773327
@@ -2085,6 +2137,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike1
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2239,6 +2295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike2
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2295,6 +2355,10 @@ PrefabInstance:
     - target: {fileID: 3319065629425718872, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
       propertyPath: m_Name
       value: Spike3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2606,6 +2670,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike3
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2698,6 +2766,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 41.593327
@@ -2829,6 +2901,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.06392002
@@ -2929,6 +3005,10 @@ PrefabInstance:
     - target: {fileID: 3319065629425718872, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
       propertyPath: m_Name
       value: Spike2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3115,6 +3195,10 @@ PrefabInstance:
     - target: {fileID: 3319065629425718872, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
       propertyPath: m_Name
       value: Spike3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3379,6 +3463,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike2
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3449,6 +3537,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: -8.670273
@@ -3511,6 +3603,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 45.170475
@@ -3573,6 +3669,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 49.813328
@@ -3768,6 +3868,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.040001
@@ -3916,6 +4020,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 24.38
@@ -4042,6 +4150,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 19.164799
@@ -4331,6 +4443,95 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
   m_PrefabInstance: {fileID: 1821699144}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &1074515710
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4701466349560905010, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_Name
+      value: Monologue 3rd
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509631728497177841, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -41.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509631728497177841, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 33
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509631728497177841, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509631728497177841, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509631728497177841, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509631728497177841, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509631728497177841, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509631728497177841, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509631728497177841, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6509631728497177841, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7308836833588153344, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_Size.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7308836833588153344, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_Size.y
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 7308836833588153344, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: m_Size.z
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9012301186422336659, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: dialogueBox
+      value: 
+      objectReference: {fileID: 2100102127}
+    - target: {fileID: 9012301186422336659, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 2100102128}
+    - target: {fileID: 9012301186422336659, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: nextDialogue
+      value: 
+      objectReference: {fileID: 1615358702}
+    - target: {fileID: 9012301186422336659, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: dialogueStartDelay
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9012301186422336659, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: dialogueUpdateCooldown
+      value: 8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
 --- !u!1001 &1095375943
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4418,6 +4619,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 16.029999
@@ -4529,6 +4734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike1
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4590,6 +4799,10 @@ PrefabInstance:
     - target: {fileID: 3319065629425718872, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
       propertyPath: m_Name
       value: Spike2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4797,6 +5010,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike2
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4988,6 +5205,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike2
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5140,6 +5361,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.77
@@ -5412,7 +5637,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6366209475620018517, guid: 8b0d59e1569e7e744a9707404bf6f64d, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7636229917462605565, guid: 8b0d59e1569e7e744a9707404bf6f64d, type: 3}
       propertyPath: dialogueBox
@@ -5422,6 +5647,10 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 2100102128}
+    - target: {fileID: 7636229917462605565, guid: 8b0d59e1569e7e744a9707404bf6f64d, type: 3}
+      propertyPath: dialogueStartDelay
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5483,6 +5712,10 @@ PrefabInstance:
     - target: {fileID: 3319065629425718872, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
       propertyPath: m_Name
       value: Spike2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5704,6 +5937,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike3
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5816,6 +6053,10 @@ PrefabInstance:
     - target: {fileID: 3319065629425718872, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
       propertyPath: m_Name
       value: Spike3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5935,6 +6176,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Monologue 16th
       objectReference: {fileID: 0}
+    - target: {fileID: 8202283601991826150, guid: 6bc392c965e7d774cb076d455dd59f8d, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8600864653810389010, guid: 6bc392c965e7d774cb076d455dd59f8d, type: 3}
       propertyPath: dialogueBox
       value: 
@@ -5947,11 +6192,20 @@ PrefabInstance:
       propertyPath: nextDialogue
       value: 
       objectReference: {fileID: 1742991365}
+    - target: {fileID: 8600864653810389010, guid: 6bc392c965e7d774cb076d455dd59f8d, type: 3}
+      propertyPath: dialogueStartDelay
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6bc392c965e7d774cb076d455dd59f8d, type: 3}
+--- !u!1 &1615358702 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8202283601991826150, guid: 6bc392c965e7d774cb076d455dd59f8d, type: 3}
+  m_PrefabInstance: {fileID: 1615358701}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1622927113
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6320,6 +6574,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike3
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6353,6 +6611,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.84
@@ -6604,6 +6866,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.8999996
@@ -6705,6 +6971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike3
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6728,6 +6998,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.08
@@ -6829,6 +7103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike3
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6885,6 +7163,10 @@ PrefabInstance:
     - target: {fileID: 3319065629425718872, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
       propertyPath: m_Name
       value: Spike1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6947,6 +7229,10 @@ PrefabInstance:
     - target: {fileID: 3319065629425718872, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
       propertyPath: m_Name
       value: Spike1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7054,6 +7340,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.9799995
@@ -7210,6 +7500,10 @@ PrefabInstance:
     - target: {fileID: 3319065629425718872, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
       propertyPath: m_Name
       value: Spike1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7470,6 +7764,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike2
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7526,6 +7824,10 @@ PrefabInstance:
     - target: {fileID: 3319065629425718872, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
       propertyPath: m_Name
       value: Spike1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7736,6 +8038,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: 39.003326
@@ -8034,6 +8340,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Spike1
       objectReference: {fileID: 0}
+    - target: {fileID: 7234373282238291618, guid: ad23d2fa6cce93e4998c95124cea5b92, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8112,6 +8422,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1896230903}
     m_Modifications:
+    - target: {fileID: 2856710312827842114, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
+      propertyPath: damage
+      value: 32000
+      objectReference: {fileID: 0}
     - target: {fileID: 6031177453424406942, guid: b3839629d6cf6584fb02338febc8fe40, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.059999
@@ -8182,5 +8496,6 @@ SceneRoots:
   - {fileID: 1248007442}
   - {fileID: 1259600765}
   - {fileID: 2100102126}
+  - {fileID: 1074515710}
   - {fileID: 1615358701}
   - {fileID: 1478641081}

@@ -159,6 +159,10 @@ PrefabInstance:
       propertyPath: nextDialogue
       value: 
       objectReference: {fileID: 559208966}
+    - target: {fileID: 7107847386955948641, guid: f384c8f8d6fffdc40bdc0975f842b305, type: 3}
+      propertyPath: dialogueUpdateCooldown
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 9149477163922063982, guid: f384c8f8d6fffdc40bdc0975f842b305, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5
@@ -1856,6 +1860,10 @@ PrefabInstance:
       propertyPath: dialogueText
       value: 
       objectReference: {fileID: 1542778761}
+    - target: {fileID: 5827287690072925696, guid: a27278ba57d757e4c9f034c0ba178e44, type: 3}
+      propertyPath: dialogueUpdateCooldown
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5123,6 +5131,10 @@ PrefabInstance:
       propertyPath: nextDialogue
       value: 
       objectReference: {fileID: 8276570}
+    - target: {fileID: 9012301186422336659, guid: 0435a087dc20e6a48aefecb69f5984db, type: 3}
+      propertyPath: dialogueUpdateCooldown
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
