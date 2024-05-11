@@ -37,6 +37,8 @@ public class Move : MonoBehaviour
     private float idleTimeMax = 50f;
     private float idleCooldown;
 
+    private Digging diggingHandler;
+
     void Start()
     {
         jumpsLeft = bonusJumps;
@@ -45,6 +47,8 @@ public class Move : MonoBehaviour
         _rb = GetComponent<Rigidbody>();
         gravityVector = new Vector3(0, -Physics.gravity.y, 0);
         idleCooldown = Random.Range(idleTimeMin, idleTimeMax);
+
+        diggingHandler = GetComponent<Digging>();
     }
 
     void Update()
@@ -74,6 +78,37 @@ public class Move : MonoBehaviour
             Jump();
         }
 
+        if (Input.GetKeyDown(KeyCode.E) && diggingHandler.hasShovel)
+        {
+            characterAnimator.SetTrigger("Digging");
+            diggingHandler.Dig();
+        }    
+        
+
+
+        if (_rb.velocity.y < 0.5f)
+        {
+            _rb.velocity -= gravityVector * gravityFallingForce * Time.deltaTime;
+        }
+
+        
+        if (idleCooldown <= 0)
+        {
+            characterAnimator.SetTrigger("LongIdle");
+            idleCooldown = Random.Range(idleTimeMin, idleTimeMax);
+        }
+        CanJump();
+        OperateCooldowns();
+
+
+    }
+
+    private void OperateCooldowns()
+    {
+        if (!isRunning && !isJumping && idleCooldown > 0)
+        {
+            idleCooldown -= Time.deltaTime;
+        }
         if (untilNextJump >= 0)
         {
             untilNextJump -= Time.deltaTime;
@@ -99,24 +134,9 @@ public class Move : MonoBehaviour
                 }
             }
         }
-        if (_rb.velocity.y < 0.5f)
-        {
-            _rb.velocity -= gravityVector * gravityFallingForce * Time.deltaTime;
-        }
-
-        if (!isRunning && !isJumping && idleCooldown > 0)
-        {
-            idleCooldown -= Time.deltaTime;
-        }
-        if (idleCooldown <= 0)
-        {
-            characterAnimator.SetTrigger("LongIdle");
-            idleCooldown = Random.Range(idleTimeMin, idleTimeMax);
-        }
-        CanJump();
-
 
     }
+
 
     private void Jump()
     {
