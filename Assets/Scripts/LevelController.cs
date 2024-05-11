@@ -1,4 +1,4 @@
-using System.Collections;
+ï»¿using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.Events;
@@ -28,7 +28,7 @@ public class LevelController : MonoBehaviour
     public void Init()
     {
         count = 0;
-        level = SceneManager.GetActiveScene().buildIndex - 1;
+        level = SceneManager.GetActiveScene().buildIndex;
         _repeated = new bool[_levelFinder.Level[level].Text.Length];
         for (int i = 0; i < _repeated.Length; i++)
         {
@@ -88,5 +88,12 @@ public class LevelController : MonoBehaviour
         gameObject.SetActive(false);
     }
 
-    private void ButtonText() => _buttonText.text = (count + 1 >= _levelFinder.Level[level].Text[_index].String.Length) ?  "Çàêðûòü" : _buttonText.text = "Äàëüøå";
+    private void ButtonText()
+    {
+        _buttonText.text = (count + 1 
+            >=  _levelFinder.Level[level].Text[_index].String.Length) 
+            ? "Ð—Ð°ÐºÑ€Ñ‹Ñ‚ÑŒ"
+            : _buttonText.text = "Ð”Ð°Ð»ÑŒÑˆÐµ";
+    }
+
 }
