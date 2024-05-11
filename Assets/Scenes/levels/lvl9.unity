@@ -5217,7 +5217,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 741431287300869009, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: m_Intensity
-      value: 0
+      value: 3.2125392
       objectReference: {fileID: 0}
     - target: {fileID: 1623380939302669161, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: m_Materials.Array.size
@@ -10351,6 +10351,7 @@ GameObject:
   - component: {fileID: 5126529024553736944}
   - component: {fileID: 5126529024553736946}
   - component: {fileID: 5126529024553736945}
+  - component: {fileID: 5126529024553736947}
   m_Layer: 0
   m_Name: lopata
   m_TagString: Untagged
@@ -11220,6 +11221,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2745d1433645e344a9db6e8669cfdc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5126529024553736947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 989012717774004710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be4bdd06ff307734cbc0f3baf9d98830, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spinningSpeed: 0
 --- !u!1 &5145616471491437912
 GameObject:
   m_ObjectHideFlags: 0
