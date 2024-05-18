@@ -3921,6 +3921,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.size
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5349196476962446208, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/SFX/SFX_void_portal_active_big
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349196476962446208, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1683392791
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349196476962446208, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1184495563
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349196476962446208, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 1478054829
+      objectReference: {fileID: 0}
+    - target: {fileID: 5349196476962446208, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1206472637
+      objectReference: {fileID: 0}
     - target: {fileID: 6058715213673750100, guid: 142b394e21edf1c42947ec16dc7a523c, type: 3}
       propertyPath: simulationSpeed
       value: 0.1

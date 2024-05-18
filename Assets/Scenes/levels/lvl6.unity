@@ -869,6 +869,99 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fc7ec4b14204bf046add5a6b5066a818, type: 3}
+--- !u!1001 &247594544
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2665455642988232061, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: PlayEvent
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665455642988232061, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: StopEvent
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665455642988232061, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: EventReference.Path
+      value: snapshot:/Reverb
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665455642988232061, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665455642988232061, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665455642988232061, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: -545432987
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665455642988232061, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1331198326
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665455642988232061, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: -185126979
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665455642988232061, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -924176438
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174627639621302166, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174627639621302166, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174627639621302166, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174627639621302166, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174627639621302166, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174627639621302166, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174627639621302166, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174627639621302166, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174627639621302166, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3174627639621302166, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3778716499359812134, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
+      propertyPath: m_Name
+      value: BG_SnapshotReverb
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 34b9b8a50bf12024d9e83dce509fb1bb, type: 3}
 --- !u!1 &268416497
 GameObject:
   m_ObjectHideFlags: 0
@@ -6496,3 +6589,4 @@ SceneRoots:
   - {fileID: 1882272878}
   - {fileID: 1587869141}
   - {fileID: 1353044473}
+  - {fileID: 247594544}

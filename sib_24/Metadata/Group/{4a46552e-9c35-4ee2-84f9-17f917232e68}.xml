@@ -23,7 +23,11 @@
 	</object>
 	<object class="MixerBusPanner" id="{7b445431-5d00-4c98-94ac-211f23fd66c7}" />
 	<object class="MixerBusFader" id="{5a80dc9e-c806-43ae-9eb6-097b4774edf7}" />
-	<object class="Sidechain" id="{caa7c648-9d8f-4cd7-a30b-c38d58b20b91}" />
+	<object class="Sidechain" id="{caa7c648-9d8f-4cd7-a30b-c38d58b20b91}">
+		<property name="level">
+			<value>7</value>
+		</property>
+	</object>
 	<object class="Sidechain" id="{6e2ccd53-bc7e-468c-8a92-b29e15a811c2}">
 		<property name="level">
 			<value>10</value>

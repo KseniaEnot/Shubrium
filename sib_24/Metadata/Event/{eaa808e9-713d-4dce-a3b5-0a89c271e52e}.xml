@@ -85,6 +85,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{3ee087a1-35cb-4be5-b38a-d2d2c5541a69}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{6fa24ce3-454a-402b-86eb-675f77f83627}</destination>
 		</relationship>
@@ -269,7 +272,7 @@
 			<value>0.900000036</value>
 		</property>
 		<property name="maximumDistance">
-			<value>100</value>
+			<value>95</value>
 		</property>
 		<property name="overrideRange">
 			<value>true</value>

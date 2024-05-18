@@ -5233,7 +5233,7 @@ PrefabInstance:
     - target: {fileID: 7803070629491972513, guid: d36363e570fa4d24998836ac4e075269, type: 3}
       propertyPath: respawnEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 922944111}
+      objectReference: {fileID: 922944114}
     - target: {fileID: 7803070629491972513, guid: d36363e570fa4d24998836ac4e075269, type: 3}
       propertyPath: respawnEvent.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
@@ -5339,52 +5339,24 @@ PrefabInstance:
     - {fileID: 7272789005290956174, guid: d36363e570fa4d24998836ac4e075269, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2627030363143871127, guid: d36363e570fa4d24998836ac4e075269, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 922944111}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d36363e570fa4d24998836ac4e075269, type: 3}
 --- !u!4 &922944109 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6915967952899525696, guid: d36363e570fa4d24998836ac4e075269, type: 3}
   m_PrefabInstance: {fileID: 922944108}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &922944110 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2627030363143871127, guid: d36363e570fa4d24998836ac4e075269, type: 3}
+--- !u!114 &922944114 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6171288456457450520, guid: d36363e570fa4d24998836ac4e075269, type: 3}
   m_PrefabInstance: {fileID: 922944108}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &922944111
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 922944110}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CollisionTag: 
-  EventReference:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
-  Event: 
-  PlayEvent: 1
-  StopEvent: 2
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  AllowNonRigidbodyDoppler: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
 --- !u!1001 &949387422
 PrefabInstance:
   m_ObjectHideFlags: 0
