@@ -28,7 +28,7 @@ public class Move : MonoBehaviour
     public int bonusJumps;
     private int jumpsLeft;
 
-    private float groundCheckCooldown =0.5f;
+    private float groundCheckCooldown = 0.5f;
     private float untilGroundCheck;
 
     public Animator characterAnimator;
