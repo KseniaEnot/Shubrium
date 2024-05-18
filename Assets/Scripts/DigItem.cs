@@ -12,6 +12,8 @@ public class DigItem : MonoBehaviour
         {
             other.GetComponent<Digging>().hasShovel = true;
             gameObject.SetActive(false);
+            GetComponent<FMODUnity.StudioEventEmitter>().Play();
+
         }
     }
 }

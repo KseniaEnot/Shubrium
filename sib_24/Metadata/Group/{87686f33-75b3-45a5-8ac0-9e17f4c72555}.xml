@@ -25,12 +25,12 @@
 	<object class="MixerBusFader" id="{d170af07-9ec7-4cfd-a88e-756f0e1fb07c}" />
 	<object class="Sidechain" id="{9e3951ed-08fc-4bee-994b-9518edc03602}">
 		<property name="level">
-			<value>-5</value>
+			<value>-3</value>
 		</property>
 	</object>
 	<object class="Sidechain" id="{15ead2ac-dd7a-4026-9229-6bd4112df3b4}">
 		<property name="level">
-			<value>-5</value>
+			<value>-3</value>
 		</property>
 	</object>
 </objects>

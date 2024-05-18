@@ -53,7 +53,7 @@
 			<destination>{926377dc-3db1-4f25-a15a-ec91b2911cb4}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{5e244e36-dbe8-4272-94fd-0169f8711758}</destination>
+			<destination>{b3b26f77-36a7-48b8-a2c8-6ee3c3071715}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{a3189789-a073-425d-8835-eb508ea099a9}" />
@@ -186,6 +186,9 @@
 	<object class="MixerBusPanner" id="{b41e5667-0f1b-4c8d-850b-af35bda5c1b7}" />
 	<object class="MixerBusFader" id="{1753075a-f0c5-46a0-b657-4aecb18c11bd}" />
 	<object class="SpatialiserEffect" id="{bb9db72a-a413-4985-baa5-9d63854ee3e2}">
+		<property name="maximumDistance">
+			<value>95</value>
+		</property>
 		<property name="overrideRange">
 			<value>true</value>
 		</property>
