@@ -16,9 +16,10 @@ public class Move : MonoBehaviour
     public LayerMask groundLayer;
 
     [SerializeField] private float gravityFallingForce;
+    [SerializeField] GameObject PauseCanvas;
     private Vector3 gravityVector;
 
-    private bool canMove = true;
+    public bool canMove = true;
 
     private float jumpCooldown = 0.2f;
     private float untilNextJump;
@@ -53,6 +54,12 @@ public class Move : MonoBehaviour
 
     void Update()
     {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            canMove = PauseCanvas.activeSelf;
+            PauseCanvas.SetActive(!PauseCanvas.activeSelf);
+        }
+
         if (!canMove) return;
 
         if (Input.GetAxis("Horizontal") != 0) {
@@ -67,7 +74,7 @@ public class Move : MonoBehaviour
         }
 
         if (
-            (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow))
+            (Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.Space))
              && canJump
            )
         {
@@ -82,9 +89,7 @@ public class Move : MonoBehaviour
         {
             characterAnimator.SetTrigger("Digging");
             diggingHandler.Dig();
-        }    
-        
-
+        }
 
         if (_rb.velocity.y < 0.5f)
         {
