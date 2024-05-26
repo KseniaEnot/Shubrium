@@ -7,4 +7,14 @@ public class SceneChanger : MonoBehaviour
     {
         SceneManager.LoadScene(sceneId);
     }
+
+    public void ExitGame()
+    {
+        Application.Quit();
+    }
+
+    public void RestartScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
 }
